@@ -1,0 +1,11 @@
+File Path,File Name,Query Type,Column,Column Source Table,Table,With Name,With Query,Where,Value
+c:/py,input_query.sql,WITH,Null,Null,Null,orders_with_details,"SELECT order_id, order_date, customer_id FROM orders WHERE order_date > '2023-01-01'",order_date | users.active,order_id | order_date | customer_id | o.order_id | o.customer_id | users.active
+,,,order_id,orders_with_details,,,,,
+,,,order_date,orders_with_details,,,,,
+,,,customer_id,orders_with_details,,,,,
+,,,o.order_id,Unknown,,,,,
+,,,o.customer_id,Unknown,,,,,
+,,,users.active,u,,,,,
+,,,users.id,u,,,,,
+,,,,,orders,,,,
+,,,,,users,,,,

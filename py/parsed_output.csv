@@ -1,0 +1,8 @@
+File Path,File Name,Query Type,Column,Source Table,Column Aliases,Table Aliases,JOIN Conditions,WHERE Conditions,GROUP BY,HAVING,VALUES
+input_query.sql,input_query.sql,SELECT,order_id,orders_with_details,orders_with_details,Unknown,None,None,None,None,None
+input_query.sql,input_query.sql,SELECT,order_date,orders_with_details,orders_with_details,Unknown,None,None,None,None,None
+input_query.sql,input_query.sql,SELECT,customer_id,orders_with_details,orders_with_details,Unknown,None,None,None,None,None
+input_query.sql,input_query.sql,SELECT,order_id,Unknown,orders_with_details,Unknown,None,None,None,None,None
+input_query.sql,input_query.sql,SELECT,customer_id,Unknown,orders_with_details,Unknown,None,None,None,None,None
+input_query.sql,input_query.sql,SELECT,active,Unknown,Unknown,Unknown,None,None,None,None,None
+input_query.sql,input_query.sql,SELECT,id,Unknown,Unknown,Unknown,None,None,None,None,None
